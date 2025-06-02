@@ -4,13 +4,13 @@
     "email": "yifeiluo426@gmail.com",
     "phone": "",
     "website": "https://yl-eco.github.io/yifeiluo.github.io/",
-    "summary": "I am currently a student at TSE",
+    "summary": "I am currently a master's student at the Toulouse School of Economics. My research interests include cultural economics, institutions, economic history, and formal economic modeling.",
     "location": {
       "address": "",
       "postalCode": "",
       "city": "Toulouse",
       "countryCode": "FR",
-      "region": ""
+      "region": "Occitanie"
     },
     "profiles": [
       {
@@ -21,12 +21,12 @@
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0000-0000-0000-0000"  // Replace with your actual ORCID ID
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "yifeiluo",  // Replace if different
+        "url": "https://github.com/yifeiluo"
       }
     ]
   },
@@ -34,17 +34,17 @@
   "education": [
     {
       "institution": "Toulouse School of Economics",
-      "area": "M.S. in Economics",
-      "studyType": "",
-      "startDate": "",
+      "area": "Economics",
+      "studyType": "Master's (M.Sc.)",
+      "startDate": "2023",
       "endDate": "2025",
       "gpa": null,
       "courses": []
     },
     {
       "institution": "Case Western Reserve University",
-      "area": "BS/MS Math and BA Econ",
-      "studyType": "",
+      "area": "Mathematics (BS/MS) and Economics (BA)",
+      "studyType": "Bachelor's and Master's",
       "startDate": "",
       "endDate": "2023",
       "gpa": null,
@@ -52,16 +52,36 @@
     }
   ],
   "skills": [],
-  "languages": [Mandarin, English, some French and Spanish, and notational Russian and Ukrainian],
+  "languages": [
+    {
+      "language": "Mandarin",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "French",
+      "fluency": "Beginner / Reading and listening"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Basic"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Notational / Technical Reading"
+    },
+    {
+      "language": "Ukrainian",
+      "fluency": "Notational / Technical Reading"
+    }
+  ],
   "interests": [],
   "references": [],
-  "publications": [
-  ],
-  "presentations": [
-  ],
-  "teaching": [
-  ],
-  "portfolio": [
-  
-  ]
+  "publications": [],
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }
