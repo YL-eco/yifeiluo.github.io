@@ -1,6 +1,7 @@
 title: "Yifei Luo's Webpage"
 description: "Academic site"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
@@ -15,34 +16,21 @@ title_separator: "-"
 name           : "Yifei Luo"
 description    : "Hi! I study and work on economics, in particular cultural economics, institutions, and history, often using models to understand places where data does not go far."
 url            : "https://yifeiluo.github.io"
-baseurl        : ""  # No trailing slash
+baseurl        : ""
 repository     : "yifeiluo/yifeiluo.github.io"
-theme          : "minimal-mistakes-jekyll"
 
-# Author Information (shown in sidebar)
 author:
-  avatar   : "profile.png"  # Place inside /images or root
+  avatar   : "profile.png"
   name     : "Yifei Luo"
   pronouns : "he/him/his"
   bio      : "I study cultural economics, institutions, and historical development using formal models and empirical methods."
   location : "Toulouse, France"
   employer : "Toulouse School of Economics"
   email    : "luoyifei426@gmail.com"
-
-  # Academic profiles
   googlescholar : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  orcid         : "https://orcid.org/0000-0000-0000-0000"  # Replace with your actual ORCID
-  pubmed        : ""  # Likely not needed unless you're in biomedical fields
+  orcid         : "https://orcid.org/0000-0000-0000-0000"
+  github        : "yifeiluo"
 
-  # Code and repos
-  github : "yifeiluo"
-
-  # Social media (remove unused)
-  linkedin : "your-linkedin"  # replace or remove
-  twitter  : "yourhandle"     # without the @, or remove
-  bluesky  : ""                # remove if unused
-
-# Publication Categories (used in _publications/)
 publication_category:
   books:
     title: "Books"
@@ -51,34 +39,22 @@ publication_category:
   conferences:
     title: "Conference Papers"
 
-# Site Options
-teaser           :  # Optional fallback image in /images/
 breadcrumbs      : true
 words_per_minute : 160
 future           : true
 read_more        : "disabled"
 talkmap_link     : false
 
-# Comments (optional)
 comments:
   provider: false
 
-# Atom feed
 atom_feed:
   hide: false
 
-# SEO and verification
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
+twitter:  # remove if unused
+  username: ""  # or your handle
 
-# Social Sharing
-twitter:
-  username: "yourhandle"  # remove if not used
-facebook:
-  app_id    :
-  publisher :
-og_image: ""  # Set if you want a default social preview image
+og_image: ""
 
 social:
   type : Person
@@ -88,13 +64,9 @@ social:
     - "https://github.com/yifeiluo"
     - "https://orcid.org/0000-0000-0000-0000"
 
-# Analytics (optional)
 analytics:
-  provider: "false"  # or "google-analytics-4"
-  google:
-    tracking_id: ""  # Your GA4 ID here
+  provider: false
 
-# Reading Files
 include:
   - .htaccess
   - _pages
@@ -118,7 +90,6 @@ exclude:
 keep_files:
   - .git
 
-# Markdown and Output Settings
 encoding       : "utf-8"
 markdown_ext   : "markdown,mkdown,mkdn,mkd,md"
 markdown       : kramdown
@@ -136,7 +107,6 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Collections
 collections:
   teaching:
     output: true
@@ -151,7 +121,6 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-# Defaults for content types
 defaults:
   - scope:
       path: ""
@@ -194,33 +163,13 @@ defaults:
       layout: talk
       author_profile: true
 
-# Sass
 sass:
   sass_dir: _sass
   style: compressed
 
-# Permalinks
 permalink: /:categories/:title/
 timezone : Etc/UTC
 
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
-# Tag and Category Archives
 category_archive:
   type: liquid
   path: /categories/
@@ -228,7 +177,6 @@ tag_archive:
   type: liquid
   path: /tags/
 
-# HTML Compression
 compress_html:
   clippings: all
   ignore:
