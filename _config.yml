@@ -1,6 +1,16 @@
-# Basic Site Settings
+title: "Yifei Luo's Webpage"
+description: "Academic site"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
 locale         : "en-US"
-title          : "Yifei Luo's Webpage"
 title_separator: "-"
 name           : "Yifei Luo"
 description    : "Hi! I study and work on economics, in particular cultural economics, institutions, and history, often using models to understand places where data does not go far."
