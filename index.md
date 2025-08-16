@@ -5,21 +5,8 @@ title: Home
 
 {% include nav.html %}
 
-<div class="header-section">
-  <img src="{{ site.baseurl }}/assets/img/profile.jpg" alt="Yifei Luo" class="avatar">
-  <div class="header-info">
-    <h1>Yifei Luo</h1>
-    <p class="small">
-      Economist studying political economy and economic history
-    </p>
-    <div class="contact-links">
-      <a href="mailto:luoyifei426@gmail.com">📧 Email</a>
-      <a href="https://ssrn.com/author=6801941">📄 SSRN</a>
-      <a href="https://github.com/yifeiluo">💻 GitHub</a>
-      <a href="{{ site.baseurl }}/cv">📋 CV</a>
-    </div>
-  </div>
-</div>
+<h1>Yifei Luo</h1>
+<p class="small">Economist studying political economy and economic history</p>
 
 <div class="card">
   <h3>🎯 Research Focus</h3>

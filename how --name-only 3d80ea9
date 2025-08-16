@@ -1,0 +1,12 @@
+[33mcommit 0277135f5892d2a486ec596f217c51bd0faa2620[m
+Author: Yifei Luo <luoyifei426@gmail.com>
+Date:   Sat Aug 16 15:30:53 2025 +0200
+
+    Fix all navigation links to use site.baseurl for proper GitHub Pages routing
+
+_includes/head-custom.html
+_includes/nav.html
+assets/css/style.css
+bio.md
+cv.md
+index.md
