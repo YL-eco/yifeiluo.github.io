@@ -63,7 +63,6 @@ title: Home
   <div class="card">
     <h3>🎓 Education</h3>
     <ul class="clean">
-      <li><strong>Ph.D. in Economics</strong> — ??? (Expected ???)</li>
       <li><strong>M.A. in Economics</strong> — Toulouse School of Economics (2025)</li>
       <li><strong>B.A./B.Sc./M.S. in Economics/Mathematics/History</strong> — Case Western Reserve University (2023)</li>
     </ul>

@@ -24,11 +24,7 @@ permalink: /bio
 <div class="card">
   <h3>🎓 Academic Background</h3>
   <ul class="clean">
-    <li>
-      <strong>Ph.D. in Economics</strong><br>
-      ??? (Expected ??)<br>
-      <em>Dissertation: "Historical Shocks and Cultural Persistence"</em>
-    </li>
+
     <li>
       <strong>M.A. in Economics</strong><br>
       Toulouse School of Economics (2025)<br>
