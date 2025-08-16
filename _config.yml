@@ -66,3 +66,4 @@ kramdown:
 # Include files that should be served directly
 include:
   - BingSiteAuth.xml
+  - googled30f3c66337a4699.html
