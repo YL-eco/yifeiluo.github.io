@@ -23,7 +23,7 @@ permalink: /cv
   <ul class="clean">
     <li>
       <strong>Ph.D. in Economics</strong><br>
-      Toulouse School of Economics (Expected 2025)<br>
+      ??? (Expected ??)<br>
       <em>Dissertation: "Historical Shocks and Cultural Persistence"</em>
     </li>
     <li>
