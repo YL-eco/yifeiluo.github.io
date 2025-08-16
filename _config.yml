@@ -62,3 +62,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+
+# Include files that should be served directly
+include:
+  - BingSiteAuth.xml
