@@ -25,6 +25,31 @@ seo:
   name: "Yifei Luo"
   sameAs:
     - "https://ssrn.com/author=6801941"
+    - "https://github.com/yifeiluo"
 
 # Include custom head HTML
 includes_dir: _includes
+
+# Site settings
+lang: en
+timezone: UTC
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Yifei Luo"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
