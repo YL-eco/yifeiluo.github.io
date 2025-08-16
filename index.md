@@ -6,7 +6,7 @@ title: Home
 {% include nav.html %}
 
 <div class="header-section">
-  <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Yifei Luo" class="avatar">
+  <img src="{{ site.baseurl }}/assets/img/profile.jpg" alt="Yifei Luo" class="avatar">
   <div class="header-info">
     <h1>Yifei Luo</h1>
     <p class="small">
@@ -16,7 +16,7 @@ title: Home
       <a href="mailto:luoyifei426@gmail.com">📧 Email</a>
       <a href="https://ssrn.com/author=6801941">📄 SSRN</a>
       <a href="https://github.com/yifeiluo">💻 GitHub</a>
-      <a href="{{ '/cv' | relative_url }}">📋 CV</a>
+      <a href="{{ site.baseurl }}/cv">📋 CV</a>
     </div>
   </div>
 </div>
