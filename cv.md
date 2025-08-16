@@ -14,7 +14,7 @@ permalink: /cv
     My complete academic CV with detailed information about my research, education, and experience.
   </p>
   <div class="contact-links">
-    <a href="/assets/cv/yifei_luo_cv.pdf">📄 Download PDF</a>
+    <a href="{{ '/assets/cv/yifei_luo_cv.pdf' | relative_url }}">📄 Download PDF</a>
   </div>
 </div>
 

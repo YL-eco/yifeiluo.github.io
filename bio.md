@@ -74,7 +74,7 @@ permalink: /bio
     <a href="mailto:luoyifei426@gmail.com">📧 Email</a>
     <a href="https://ssrn.com/author=6801941">📄 SSRN Profile</a>
     <a href="https://github.com/yifeiluo">💻 GitHub</a>
-    <a href="/cv">📋 CV</a>
+    <a href="{{ '/cv' | relative_url }}">📋 CV</a>
   </div>
   <p class="small">
     I'm always interested in discussing research ideas, potential collaborations, or just chatting about 

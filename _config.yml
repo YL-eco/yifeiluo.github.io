@@ -34,6 +34,9 @@ includes_dir: _includes
 lang: en
 timezone: UTC
 
+# Permalinks
+permalink: /:title/
+
 # Collections
 collections:
   posts:
@@ -53,3 +56,9 @@ defaults:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
