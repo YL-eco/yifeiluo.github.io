@@ -1,7 +1,7 @@
 title: "Yifei Luo"
 description: "Hi and welcome! I use economic tools to study politics, historical events, social norms, religion, and organizational forms. My work spans both empirical settings and theoretical models."
-url: "https://yifeiluo.github.io"
-baseurl: ""
+url: "https://yl-eco.github.io"
+baseurl: "/yifeiluo.github.io"
 theme: jekyll-theme-minimal
 
 # Optional: use the remote theme variant
