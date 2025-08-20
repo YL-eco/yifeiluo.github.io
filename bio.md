@@ -11,44 +11,15 @@ permalink: /bio
 <div class="card">
   <h3>🎯 Research Interests</h3>
   <p>
-    My research sits at the intersection of political economy and economic history, with a focus on how historical shocks 
-    shape modern culture, social norms, and institutions. I use a mix of empirical methods (causal inference, spatial/data linkage) 
-    and formal theory to understand the long-term consequences of historical events.
+    My research sits at the intersection of political economy, and economic history, with a focus on how historical shocks 
+    shape modern culture, social norms, technology adoption and development. I use a mix of empirical methods and formal theory to understand the world.
   </p>
   <p>
-    My current work explores the persistent effects of the 1932–34 Ukrainian Famine on trade patterns, inequality, and identity formation, 
-    as well as theoretical models of cultural transmission and elite ideology dynamics.
-  </p>
-</div>
-
-<div class="card">
-  <h3>🎓 Academic Background</h3>
-  <ul class="clean">
-
-    <li>
-      <strong>M.A. in Economics</strong><br>
-      Toulouse School of Economics (2025)<br>
-      <em>Focus: Political Economy and Economic History</em>
-    </li>
-    <li>
-      <strong>B.A./B.Sc./M.S. in Economics/Mathematics/History</strong><br>
-      Case Western Reserve University (2023)<br>
-      <em>Interdisciplinary approach combining quantitative and historical methods</em>
-    </li>
-  </ul>
-</div>
-
-<div class="card">
-  <h3>🔬 Research Methodology</h3>
+    My current work explores: immigrants self-selection, identity construction and consequences, narrative, techno-optimism, AI, narrative, scientific claim and causal claim.
+    </p>
   <p>
-    My empirical work combines modern econometric techniques with historical data analysis:
+    I have studied in China, USA and France.  
   </p>
-  <ul class="clean">
-    <li><strong>Causal Inference</strong> — Instrumental variables, difference-in-differences, and regression discontinuity designs</li>
-    <li><strong>Spatial Analysis</strong> — Geographic information systems and spatial econometrics</li>
-    <li><strong>Data Linkage</strong> — Connecting historical records with contemporary datasets</li>
-    <li><strong>Formal Theory</strong> — Dynamic models of cultural transmission and institutional change</li>
-  </ul>
 </div>
 
 <div class="card">
