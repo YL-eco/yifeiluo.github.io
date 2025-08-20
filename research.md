@@ -80,35 +80,18 @@ permalink: /research
   <ul class="clean">
     <li>
       <strong>A Theory of Stereotypical Immigrant Self-Selection</strong><br>
-      <em>Exploring how cultural stereotypes influence migration patterns and economic outcomes</em>
     </li>
     <li>
       <strong>Religion Complexity and Ingroup–Outgroup Norms</strong><br>
-      <em>Analyzing how religious diversity affects social cohesion and economic cooperation</em>
     </li>
     <li>
       <strong>Scientific Narrative, Academic Formality and Persistence</strong><br>
-      <em>The case of continental philosophy and analytic philosophy</em>
     </li>
     <li>
       <strong>Narrative Networks</strong><br>
-      <em>Understanding how stories and narratives spread and persist across social networks</em>
     </li>
   </ul>
 </div>
 
-<div class="card">
-  <h3>🎯 Research Themes</h3>
-  <p>
-    My research program centers on understanding the persistence of cultural and institutional features 
-    through historical lenses. Key themes include:
-  </p>
-  <ul class="clean">
-    <li><strong>Historical Persistence</strong> — How past events continue to shape present outcomes</li>
-    <li><strong>Cultural Transmission</strong> — Mechanisms of cultural value persistence across generations</li>
-    <li><strong>Institutional Evolution</strong> — The dynamics of institutional change and stability</li>
-    <li><strong>Identity Formation</strong> — How collective identities emerge and persist</li>
-    <li><strong>Trade and Integration</strong> — The role of historical events in shaping economic integration</li>
-  </ul>
-</div>
+
 
