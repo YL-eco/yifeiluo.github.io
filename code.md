@@ -11,7 +11,7 @@ permalink: /code
 <div class="card">
   <h3>💻 Research Software</h3>
   <p>
-    I maintain research code and small utilities supporting my work in political economy and economic history. 
+    I maintain research code and small utilities supporting my work. 
     Below are selected projects with links to repositories, replication packages, and brief notes.
   </p>
 </div>
@@ -62,53 +62,6 @@ permalink: /code
       </p>
     </div>
   </details>
-</div>
-
-<div class="card">
-  <h3>🛠️ Technical Skills</h3>
-  <ul class="clean">
-    <li>
-      <strong>Programming Languages</strong><br>
-      Python (pandas, numpy, scikit-learn, matplotlib, seaborn), R, Stata, MATLAB
-    </li>
-    <li>
-      <strong>Data Analysis</strong><br>
-      Econometric modeling, spatial analysis, machine learning, data visualization
-    </li>
-    <li>
-      <strong>Tools & Platforms</strong><br>
-      Git, LaTeX, Jupyter notebooks, Docker, cloud computing platforms
-    </li>
-    <li>
-      <strong>Specialized Software</strong><br>
-      ArcGIS, QGIS, Stata, R Studio, Python IDEs
-    </li>
-  </ul>
-</div>
-
-<div class="card">
-  <h3>📊 Data Sources & Methods</h3>
-  <p>
-    My research often involves working with diverse data sources and developing custom analysis pipelines:
-  </p>
-  <ul class="clean">
-    <li><strong>Historical Data</strong> — Archival records, census data, trade statistics</li>
-    <li><strong>Geographic Data</strong> — GIS datasets, spatial boundaries, coordinate systems</li>
-    <li><strong>Survey Data</strong> — Public opinion polls, demographic surveys</li>
-    <li><strong>Administrative Data</strong> — Government records, institutional databases</li>
-  </ul>
-</div>
-
-<div class="card">
-  <h3>🔗 Open Source Contributions</h3>
-  <p>
-    I believe in the importance of open science and reproducible research. All my research code will be made 
-    publicly available with proper documentation and replication materials.
-  </p>
-  <div class="contact-links">
-    <a href="https://github.com/yifeiluo">💻 GitHub Profile</a>
-    <a href="#">📦 Research Repositories (Coming Soon)</a>
-  </div>
 </div>
 
 
