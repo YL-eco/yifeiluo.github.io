@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} · {{ site.title }}</title>
+    {% seo %}
+    {% include head-custom.html %}
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        {% if site.logo %}
+          <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" class="site-logo">
+        {% endif %}
+
+        <h1 class="site-title">{{ site.title }}</h1>
+        <p class="site-desc">{{ site.description }}</p>
+
+        <!-- Horizontal links under the photo/title in left column -->
+        <div class="sidebar-links">
+          <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+          <a href="{{ site.author.ssrn }}" target="_blank">SSRN</a>
+          <a href="{{ site.author.scholar }}" target="_blank">Google Scholar</a>
+          <a href="{{ site.author.github }}" target="_blank">GitHub</a>
+        </div>
+      </header>
+
+      <section class="content">
+        {{ content }}
+      </section>
+    </div>
+  </body>
+</html>
