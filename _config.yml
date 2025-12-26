@@ -1,69 +1,21 @@
 title: "Yifei Luo"
-description: "Hi and welcome! I use economic tools to study AI, technology, politics, historical events, social norms, religion, and organizational forms. My work spans both empirical settings and theoretical models."
+description: "Research in political economy and economic history."
 url: "https://yl-eco.github.io"
 baseurl: "/yifeiluo.github.io"
 theme: jekyll-theme-minimal
 
-# Optional: use the remote theme variant
-# remote_theme: pages-themes/minimal@v0.2.0
-# plugins:
-#   - jekyll-remote-theme
-
-# Customization
+# Theme options
 logo: /assets/img/profile.jpg
 show_downloads: false
 
-# Author info (for indexing and metadata)
 author:
   name: "Yifei Luo"
   email: "luoyifei426@gmail.com"
   ssrn: "https://ssrn.com/author=6801941"
 
-# SEO / search engine metadata
-seo:
-  type: "Person"
-  name: "Yifei Luo"
-  sameAs:
-    - "https://ssrn.com/author=6801941"
-    - "https://github.com/yifeiluo"
-
-# Include custom head HTML
 includes_dir: _includes
 
-# Site settings
-lang: en
-timezone: UTC
-
-# Permalinks
-permalink: /:title/
-
-# Collections
-collections:
-  posts:
-    output: true
-    permalink: /:collection/:title/
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Yifei Luo"
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Markdown settings
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-
-# Include files that should be served directly
+# Keep these only if you really want them
 include:
   - BingSiteAuth.xml
   - googled30f3c66337a4699.html
