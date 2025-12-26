@@ -1,17 +1,8 @@
-/* ========= Ultra-minimal, elegant academic style ========= */
-
-h1 {
-  font-size: 2.2rem;
-  line-height: 1.15;
-  margin-top: 0.2rem;
-}
-
 :root{
   --bg: #fbfbfc;
   --text: #111827;
   --muted: #6b7280;
   --line: #e5e7eb;
-  --card: #ffffff;
   --accent: #111827;
 }
 
@@ -19,131 +10,134 @@ body{
   background: var(--bg);
   color: var(--text);
   line-height: 1.7;
-}
-
-.wrapper, .container, .page-content{
-  max-width: 900px;
+  padding-bottom: 64px; /* leave space for fixed footer */
 }
 
 /* Links */
 a{ color: var(--accent); text-decoration: none; }
 a:hover{ text-decoration: underline; }
 
-/* Nav (quiet, but clear) */
+/* Quiet nav */
 .nav{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  padding: 14px 0 18px 0;
-  border-bottom: 1px solid var(--line);
-  margin-bottom: 22px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  padding:14px 0 18px 0;
+  border-bottom:1px solid var(--line);
+  margin-bottom:22px;
 }
 .nav a{
-  color: #374151;
-  padding: 6px 10px;
-  border-radius: 10px;
+  color:#374151;
+  padding:6px 10px;
+  border-radius:10px;
 }
 .nav a:hover{
-  background: #f3f4f6;
-  text-decoration: none;
+  background:#f3f4f6;
+  text-decoration:none;
 }
 .nav a.active{
-  background: #f5f5f5;
-  color: var(--text);
+  background:#f5f5f5;
+  color:var(--text);
 }
+
+/* Bigger titles */
+h1{
+  font-size: 2.2rem;
+  line-height: 1.15;
+  margin: 0 0 10px 0;
+}
+h2{ margin-top: 22px; }
+h3{ margin: 0 0 6px 0; }
 
 /* Home hero */
 .hero{
-  display: flex;
-  gap: 16px;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 4px;
+  display:flex;
+  gap:16px;
+  align-items:center;
+  flex-wrap:wrap;
+  margin-top:4px;
 }
 .avatar{
-  width: 110px;
-  height: 110px;
-  border-radius: 999px;
-  border: 1px solid var(--line);
-  object-fit: cover;
-  background: #f3f4f6;
+  width:110px;
+  height:110px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  object-fit:cover;
+  background:#f3f4f6;
 }
 .small{
-  color: var(--muted);
-  font-size: 0.95rem;
+  color:var(--muted);
+  font-size:0.95rem;
+  margin:0;
 }
 
-/* Research list */
-.section-title{
-  margin: 0 0 12px 0;
-}
-
+/* Paper layout: left image + right content */
 .paper{
-  display: grid;
-  grid-template-columns: 168px 1fr;
-  gap: 16px;
-  padding: 14px 0;
-  border-top: 1px solid var(--line);
+  display:grid;
+  grid-template-columns:168px 1fr;
+  gap:16px;
+  padding:14px 0;
+  border-top:1px solid var(--line);
 }
 .paper:first-of-type{
-  border-top: none;
-  padding-top: 0;
+  border-top:none;
+  padding-top:0;
 }
-
 .paper-thumb{
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  border-radius: 14px;
-  border: 1px solid var(--line);
-  overflow: hidden;
-  background: #f3f4f6;
+  width:100%;
+  aspect-ratio:4/3;
+  border-radius:14px;
+  border:1px solid var(--line);
+  overflow:hidden;
+  background:#f3f4f6;
 }
 .paper-thumb img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width:100%;
+  height:100%;
+  object-fit:cover;
 }
-
 .paper-title{
-  margin: 0 0 6px 0;
-  font-size: 1.08rem;
+  font-size:1.08rem;
 }
-
 .paper-links{
-  margin: 0 0 10px 0;
-  color: var(--muted);
-  font-size: 0.95rem;
+  margin:0 0 10px 0;
+  color:var(--muted);
+  font-size:0.95rem;
 }
 
-.paper details{
-  margin-top: 6px;
-}
+/* Foldable abstract */
 .paper details summary{
-  cursor: pointer;
-  color: #374151;
-  list-style: none;
+  cursor:pointer;
+  color:#374151;
+  list-style:none;
 }
 .paper details summary::-webkit-details-marker{ display:none; }
 .paper details summary:before{
-  content: "▸";
-  display: inline-block;
-  margin-right: 8px;
-  color: #6b7280;
+  content:"▸";
+  display:inline-block;
+  margin-right:8px;
+  color:#6b7280;
 }
 .paper details[open] summary:before{
-  content: "▾";
+  content:"▾";
 }
 
-/* Minimal dividers / footer */
-footer{
-  color: var(--muted);
-  font-size: 0.92rem;
-  margin-top: 26px;
-  padding-top: 12px;
-  border-top: 1px solid var(--line);
+/* Fixed footer */
+.site-footer{
+  position:fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+  border-top:1px solid var(--line);
+  background:rgba(251,251,252,0.95);
+  color:var(--muted);
+  font-size:0.92rem;
+  padding:10px 16px;
+  z-index:999;
 }
 
 @media (max-width: 640px){
-  .paper{ grid-template-columns: 1fr; }
-  .paper-thumb{ max-width: 360px; }
+  .paper{ grid-template-columns:1fr; }
+  .paper-thumb{ max-width:360px; }
 }
+
