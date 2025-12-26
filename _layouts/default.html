@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} · {{ site.title }}</title>
+    {% include head-custom.html %}
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        {% if site.logo %}
+          <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" class="site-logo">
+        {% endif %}
+
+        <h1 class="site-title">{{ site.title }}</h1>
+
+        <!-- Links UNDER photo (replaces the long description block) -->
+        <div class="sidebar-links">
+          <a class="pill" href="mailto:{{ site.author.email }}" title="{{ site.author.email }}">Email</a>
+          <a class="pill" href="{{ site.author.ssrn }}" target="_blank">SSRN</a>
+          <a class="pill" href="{{ site.author.scholar }}" target="_blank">Google Scholar</a>
+          <a class="pill" href="{{ site.author.github }}" target="_blank">GitHub</a>
+        </div>
+
+        <!-- Optional: short one-liner under the pills -->
+        <p class="site-desc">{{ site.description }}</p>
+      </header>
+
+      <section class="content">
+        {{ content }}
+      </section>
+    </div>
+  </body>
+</html>
