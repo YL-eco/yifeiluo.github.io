@@ -2,7 +2,7 @@
 layout: default
 title: CV
 permalink: /CV
----
+--- 
 
 {% include nav.html %}
 
