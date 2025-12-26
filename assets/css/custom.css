@@ -163,4 +163,39 @@ footer { display: none; }
   z-index:999;
 }
 
+/* --- Two-column layout (sidebar + main) --- */
+.wrapper{
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 28px 18px;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 34px;
+  align-items: start;
+}
+
+.sidebar{
+  position: sticky;
+  top: 18px;
+}
+
+.main{
+  min-width: 0; /* prevents overflow on long lines */
+}
+
+/* Nav should live in main, not sidebar */
+.nav{
+  margin-top: 0;
+}
+
+/* Mobile: stack columns */
+@media (max-width: 900px){
+  .wrapper{
+    grid-template-columns: 1fr;
+  }
+  .sidebar{
+    position: static;
+  }
+}
+
 
