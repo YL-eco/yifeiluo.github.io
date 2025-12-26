@@ -147,4 +147,14 @@ footer { display: none; }
 /* Make sure any images in content are not forced round */
 .page-content img { border-radius: 0; }
 
+/* Sidebar-like link block (placed at top of content but visually subtle) */
+.sidebar-links{
+  font-size: 0.95rem;
+  color: #6b7280;
+  margin: 0 0 16px 0;
+}
+.sidebar-links a{
+  color: #374151;
+}
+
 
