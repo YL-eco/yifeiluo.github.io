@@ -5,7 +5,6 @@ permalink: /research
 ---
 
 {% include nav.html %}
-{% include sidebar-links.html %}
 
 # Research
 
