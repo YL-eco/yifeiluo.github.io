@@ -8,20 +8,16 @@ permalink: /research
 
 # Research
 
-<h2 class="section-title">Working papers</h2>
-
 <div class="paper">
   <div class="paper-thumb">
     <img src="/assets/papers/persistent_shadows.png" alt="Persistent Shadows thumbnail">
   </div>
-
   <div>
     <h3 class="paper-title">Persistent Shadows of the 1932–34 Ukrainian Famine: Trade Disruption, Inequality, and Identity Formation</h3>
     <p class="paper-links">
-      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5387015">SSRN</a> ·
+      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5387015" target="_blank">SSRN</a> ·
       Code &amp; Replication: coming soon
     </p>
-
     <details>
       <summary><em>Abstract</em></summary>
       <p>
@@ -35,13 +31,11 @@ permalink: /research
   <div class="paper-thumb">
     <img src="/assets/papers/elite_ideology.png" alt="Elite Ideology thumbnail">
   </div>
-
   <div>
     <h3 class="paper-title">Elite Ideology and the Dynamics of Cultural Dominance</h3>
     <p class="paper-links">
-      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5278149">SSRN</a>
+      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5278149" target="_blank">SSRN</a>
     </p>
-
     <details>
       <summary><em>Abstract</em></summary>
       <p>
@@ -53,28 +47,31 @@ permalink: /research
 
 <div class="paper">
   <div class="paper-thumb">
-    <img src="/assets/papers/syria_conflict_ag.png" alt="Syrian Civil War agriculture thumbnail">
+    <img src="/assets/papers/syria_conflict_ag.png" alt="Syria agriculture thumbnail">
   </div>
-
-<div>
-  <h3 class="paper-title">
-    Effects of Armed Conflict on Agricultural Productivity—Evidence from Syrian Civil War
-  </h3>
-  <p class="paper-links">
-    <a href="/assets/papers/Syria_agr_shock_compressed.pdf" target="_blank">
-      PDF
-    </a>
-  </p>
-</div>
+  <div>
+    <h3 class="paper-title">Effects of Armed Conflict on Agricultural Productivity—Evidence from Syrian Civil War</h3>
+    <p class="paper-links">
+      <a href="/assets/papers/Syria_agr_shock_compressed.pdf" target="_blank">PDF</a>
     </p>
     <details>
       <summary><em>Abstract</em></summary>
       <p>
-        We investigate the shock suffered by the primary sector in Syria following the outbreak of the civil war in March 2011. We incorporate remote sensing datasets with machine learning (ML) to surmount data unavailability in weak-governance environments and evaluate the agricultural shock while armed conflict is still ongoing. We split our analysis locally and at larger areas. Using Staggered Difference-in-Differences (SDID) at patch level (local), we find temporary negative war effects on agricultural activities for zones directly affected by combats, lasting only in the short run (about 5 years). We also note anticipatory effects in the form of preventive migration flows. We then adopt a patch-donuts strategy to quantify spillovers in territories indirectly affected. Externalities are persistently negative, suggesting policymakers should aid both conflict-localities and adjacent areas. We are unable to quantify the maximal spillover effect due to insufficient construction. Lastly, at sub-district level we run Two-Way Fixed Effects and IV (using distance to closest city as instrument) to gauge impacts that embed local equilibrium effects. There is suggestive evidence of conflict-related damages to agriculture, especially when the Syrian State is involved in threatening military operations.
+        We investigate the shock suffered by the primary sector in Syria, following the outbreak of the civil war in March 2011. We incorporate remote sensing dataset with machine learning (ML) to surmount the data unavailability in weak government such as Syria to evaluate the agricultural shock when the armed conflict is still under process. We split our analysis locally and at larger area. Using Staggered Difference-in-Differences (SDID) at patch level (local), we find temporary negative war effects on agricultural activities for zones directly affected by the combats, valid only in the short run (5 years). We also note anticipatory effects in the form of preventive migration flows. We then adopt a patch-donuts strategy to quantify the spillovers in the territories indirectly affected. The externalities are persistently negative, thereby we recommend policymakers to aid both the locality receiving directly the conflict but also the adjacency. We are unable to quantify the maximal spillover effect of conflict due to our insufficient construction. Lastly, at sub-district level we run Two-Way Fixed Effects and IV (using distance to closest city as instrument) to gauge the impact embedding local equilibrium effects. There is suggestive evidence of the conflict-related damages to agriculture, especially when the Syrian State is involved in threatening military operations.
       </p>
     </details>
   </div>
 </div>
 
-<footer>Last updated: {{ site.time | date: "%Y-%m-%d" }}</footer>
+<h2>Ongoing work</h2>
 
+<ul>
+  <li><strong>Cognitive richness, learning models and evolutionarily stable Berk–Nash equilibrium</strong></li>
+  <li><strong>Behavioral selection of immigrants</strong></li>
+  <li><strong>Clustering directed graphs</strong></li>
+  <li><strong>The wandering continental philosophy and thriving analytic philosophy</strong></li>
+</ul>
+
+<footer class="site-footer">
+  © {{ site.time | date: "%Y" }} {{ site.author.name }}
+</footer>
