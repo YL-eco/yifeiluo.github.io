@@ -5,57 +5,19 @@ title: Home
 
 {% include nav.html %}
 
-<h1>Yifei Luo</h1>
-<p class="small">Economist studying political economy and economic history</p>
-
-<div class="card">
-  <h3>🎯 Research Focus</h3>
-  <p>
-    I use economic tools to study politics, historical events, social norms, religion, and organizational forms. 
-    My work spans both empirical settings and theoretical models, with a particular focus on how historical shocks 
-    shape modern culture, social norms, and institutions.
-  </p>
-</div>
-
-<div class="card">
-  <h3>📰 Latest News</h3>
-  <ul class="clean">
-    <li>
-      <strong>August 2025</strong> — New draft: <em>Persistent Shadows of the 1932–34 Ukrainian Famine</em> 
-      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5387015">[SSRN]</a>
-    </li>
-    <li>
-      <strong>June 2025</strong> — New theory paper: <em>Elite Ideology and the Dynamics of Cultural Dominance</em> 
-      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5278149">[SSRN]</a>
-    </li>
-  </ul>
-</div>
-
-<div class="card">
-  <h3>🔬 Featured Research</h3>
-  <ul class="clean">
-    <li>
-      <strong>Persistent Shadows of the 1932–34 Ukrainian Famine</strong><br>
-      Trade disruption, inequality, and identity formation in the aftermath of historical trauma.
-      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5387015">[SSRN]</a>
-    </li>
-    <li>
-      <strong>Elite Ideology and the Dynamics of Cultural Dominance</strong><br>
-      Dynamic model of cultural transmission and regime choice in evolving societies.
-      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5278149">[SSRN]</a>
-    </li>
-  </ul>
-</div>
-
-  <div class="card">
-    <h3>🎓 Education</h3>
-    <ul class="clean">
-      <li><strong>M.A. in Economics</strong> — Toulouse School of Economics (2025)</li>
-      <li><strong>B.A./B.Sc./M.S. in Economics/Mathematics/History</strong> — Case Western Reserve University (2023)</li>
-    </ul>
+<div class="hero">
+  <img src="/assets/img/profile.jpg" alt="{{ site.author.name }}" class="avatar">
+  <div>
+    <h1 style="margin:0 0 6px 0;">{{ site.author.name }}</h1>
+    <p class="small" style="margin:0 0 10px 0;">
+      <a href="mailto:{{ luoyifei426@gmail.com }}">{{ site.author.email }}</a> ·
+      <a href="{{ https://ssrn.com/author=6801941 }}">SSRN</a> ·
+      <a href="https://github.com/yifeiluo">GitHub</a> ·
+      <a href="/cv">CV</a>
+    </p>
   </div>
+</div>
 
-<footer>
-  <p>Last updated: {{ site.time | date: "%B %d, %Y" }}</p>
-  <p>Built with Jekyll • Hosted on GitHub Pages</p>
-</footer>
+<p style="margin-top:14px;">
+I study political economy and economic history, with an emphasis on how historical shocks shape modern institutions, identity, and economic behavior. How bounded rationality, misspecified model, and cultural evolution collaboratively affect social norm, limits technological advancement. My recent work incorporates: misspecified model affecting belief system, political capture of religious interpretive power, norm and AI usage, and a little bit network theory.
+</p>
