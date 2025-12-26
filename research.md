@@ -18,7 +18,7 @@ permalink: /research
     <h3 class="paper-title">Persistent Shadows of the 1932–34 Ukrainian Famine: Trade Disruption, Inequality, and Identity Formation</h3>
     <p class="paper-links">
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5387015" target="_blank">SSRN</a>
-      · Code & Replication: coming soon
+      · Code &amp; Replication: coming soon
     </p>
 
     <details>
@@ -43,7 +43,7 @@ permalink: /research
     <details>
       <summary><em>Abstract</em></summary>
       <p>
-        I develop a dynamic model to study the interaction between intergenerational cultural value transmission and the elite's choice of regime ideology. The model allows regimes to be stationary, time-varying, and ultimately endogenously chosen by elites. I first show that, under any regime choice, the initial distribution of cultural values will almost surely lead to the extinction of one value. I then analyze a two-period regime sequence, demonstrating that the duration of the initial regime is critical in preventing ideological backlash when institutions change. I characterize the minimum duration required for early-period policymakers to ensure that their preferred cultural value dominates in the long run, regardless of future regime shifts. Finally, I endogenize regime choice by modeling elite preferences, showing how the initial cultural allocation determines whether long-term policy stabilizes or cycles, causing fluctuations in the dominant cultural value.
+        I develop a dynamic model to study the interaction between intergenerational cultural value transmission and the elite’s choice of regime ideology. The model allows regimes to be stationary, time-varying, and ultimately endogenously chosen by elites. I first show that, under any regime choice, the initial distribution of cultural values will almost surely lead to the extinction of one value. I then analyze a two-period regime sequence, demonstrating that the duration of the initial regime is critical in preventing ideological backlash when institutions change. I characterize the minimum duration required for early-period policymakers to ensure that their preferred cultural value dominates in the long run, regardless of future regime shifts. Finally, I endogenize regime choice by modeling elite preferences, showing how the initial cultural allocation determines whether long-term policy stabilizes or cycles, causing fluctuations in the dominant cultural value.
       </p>
     </details>
   </div>
@@ -51,18 +51,18 @@ permalink: /research
 
 <div class="paper">
   <div class="paper-thumb">
-    <img src="{{ '/assets/papers/syria_agriculture.png' | relative_url }}" alt="Syria agriculture thumbnail">
+    <img src="{{ '/assets/papers/syria_conflict_ag.png' | relative_url }}" alt="Syria agriculture thumbnail">
   </div>
   <div>
     <h3 class="paper-title">Effects of Armed Conflict on Agricultural Productivity—Evidence from Syrian Civil War</h3>
     <p class="paper-links">
-      <a href="{{ '/assets/paper/Syria_agr_shock_compressed.pdf' | relative_url }}" target="_blank">PDF</a>
+      <a href="{{ '/assets/papers/Syria_agr_shock_compressed.pdf' | relative_url }}" target="_blank">PDF</a>
     </p>
 
     <details>
       <summary><em>Abstract</em></summary>
       <p>
-        We investigate the shock suffered by the primary sector in Syria, following the outbreak of the civil war in March 2011. We incorporate remote sensing dataset with machine learning (ML) to surmount the data unavailability in weak government such as Syria to evaluate the agricultural shock when the armed conflict is still under process. We split our analysis locally and at larger area. Using Staggered Difference-in-Differences (SDID) at patch level (local), we find temporary negative war effects on agricultural activities for zones directly affected by the combats, valid only in the short run (5 years). We also note anticipatory effects in the form of preventive migration flows. We then adopt a patch-donuts strategy to quantify the spillovers in the territories indirectly affected. The externalities are persistently negative, thereby we recommend policymakers to aid both the locality receiving directly the conflict but also the adjacency. We are unable to quantify the maximal spillover effect of conflict due to our insufficient construction. Lastly, at sub-district level we run Two-Way Fixed Effects and IV (using distance to closest city as instrument) to gauge the impact embedding local equilibrium effects. There is suggestive evidence of the conflict-related damages to agriculture, especially when the Syrian State is involved in threatening military operations.
+        We investigate the shock suffered by the primary sector in Syria, following the outbreak of the civil war in March 2011. We incorporate remote sensing data with machine learning (ML) to address data unavailability in weak-state settings and evaluate agricultural disruption while conflict is ongoing. We split the analysis locally and at a larger-area scale. Using staggered Difference-in-Differences (SDID) at patch level, we find temporary negative war effects on agricultural activity for zones directly affected by combat, concentrated in the short run (about 5 years). We also note anticipatory effects consistent with preventive migration. We then adopt a patch-donuts strategy to quantify spillovers in indirectly affected territories. Spillovers are persistently negative, suggesting policy should support both directly affected localities and adjacent areas. Due to data limitations, we cannot identify the maximal spillover effect. Finally, at sub-district level we run Two-Way Fixed Effects and IV (distance to closest city as an instrument) to gauge impacts incorporating local equilibrium effects; results suggest conflict-related damage to agriculture, especially when state forces are involved in threatened operations.
       </p>
     </details>
   </div>
