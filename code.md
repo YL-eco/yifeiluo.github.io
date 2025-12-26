@@ -5,7 +5,6 @@ permalink: /code
 ---
 
 {% include nav.html %}
-{% include sidebar-links.html %}
 
 # Code & Software
 
