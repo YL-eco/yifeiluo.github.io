@@ -6,8 +6,6 @@ permalink: /research
 
 {% include nav.html %}
 
-# Research
-
 <div class="paper">
   <div class="paper-thumb">
     <img src="/assets/papers/persistent_shadows.png" alt="Persistent Shadows thumbnail">
