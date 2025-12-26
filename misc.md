@@ -5,7 +5,6 @@ permalink: /misc
 ---
 
 {% include nav.html %}
-{% include sidebar-links.html %}
 
 # Miscellaneous
 
