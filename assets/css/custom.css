@@ -141,3 +141,10 @@ h3{ margin: 0 0 6px 0; }
   .paper-thumb{ max-width:360px; }
 }
 
+/* Hide theme footer text at bottom */
+footer { display: none; }
+
+/* Make sure any images in content are not forced round */
+.page-content img { border-radius: 0; }
+
+
