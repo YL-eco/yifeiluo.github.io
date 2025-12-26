@@ -1,8 +1,8 @@
 ---
 layout: default
 title: CV
-permalink: /CV
---- 
+permalink: /cv
+---
 
 {% include nav.html %}
 
