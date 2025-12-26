@@ -10,7 +10,7 @@ body{
   background: var(--bg);
   color: var(--text);
   line-height: 1.7;
-  padding-bottom: 64px; /* leave space for fixed footer */
+  padding-bottom: 64px; /* space for fixed footer if you use one */
 }
 
 /* Links */
@@ -40,7 +40,7 @@ a:hover{ text-decoration: underline; }
   color:var(--text);
 }
 
-/* Bigger titles */
+/* Titles */
 h1{
   font-size: 2.2rem;
   line-height: 1.15;
@@ -49,29 +49,7 @@ h1{
 h2{ margin-top: 22px; }
 h3{ margin: 0 0 6px 0; }
 
-/* Home hero */
-.hero{
-  display:flex;
-  gap:16px;
-  align-items:center;
-  flex-wrap:wrap;
-  margin-top:4px;
-}
-.avatar{
-  width:110px;
-  height:110px;
-  border-radius:999px;
-  border:1px solid var(--line);
-  object-fit:cover;
-  background:#f3f4f6;
-}
-.small{
-  color:var(--muted);
-  font-size:0.95rem;
-  margin:0;
-}
-
-/* Paper layout: left image + right content */
+/* Paper layout */
 .paper{
   display:grid;
   grid-template-columns:168px 1fr;
@@ -122,7 +100,55 @@ h3{ margin: 0 0 6px 0; }
   content:"▾";
 }
 
-/* Fixed footer */
+/* Mobile */
+@media (max-width: 640px){
+  .paper{ grid-template-columns:1fr; }
+  .paper-thumb{ max-width:360px; }
+}
+
+/* Hide theme footer text at bottom (jekyll-theme-minimal) */
+footer { display: none; }
+
+/* Make sure images in content are not forced round */
+.page-content img { border-radius: 0; }
+
+/* Sidebar logo/title/desc (for custom layout) */
+.site-logo{
+  width: 220px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  display: block;
+  margin-bottom: 12px;
+}
+.site-title{ margin-bottom: 6px; }
+.site-desc{ color: var(--muted); }
+
+/* Sidebar links (horizontal) */
+.sidebar-links{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+.sidebar-links a{
+  display: inline-block;
+  color: #374151;
+  text-decoration: none;
+}
+.sidebar-links a:hover{
+  text-decoration: underline;
+}
+.sidebar-links a:not(:last-child)::after{
+  content: " ·";
+  color: #9ca3af;
+  margin-left: 6px;
+}
+
+/* Fixed footer (only if you use <footer class="site-footer"> in pages) */
 .site-footer{
   position:fixed;
   left:0;
@@ -135,53 +161,5 @@ h3{ margin: 0 0 6px 0; }
   padding:10px 16px;
   z-index:999;
 }
-
-@media (max-width: 640px){
-  .paper{ grid-template-columns:1fr; }
-  .paper-thumb{ max-width:360px; }
-}
-
-/* Hide theme footer text at bottom */
-footer { display: none; }
-
-/* Make sure any images in content are not forced round */
-.page-content img { border-radius: 0; }
-
-/* Sidebar-like link block (placed at top of content but visually subtle) */
-.sidebar-links{
-  font-size: 0.95rem;
-  color: #6b7280;
-  margin: 0 0 16px 0;
-}
-.sidebar-links a{
-  color: #374151;
-}
-
-/* Horizontal link list (for your sidebar links block) */
-.sidebar-links{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.sidebar-links a{
-  display: inline-block;
-  color: #374151;
-  text-decoration: none;
-}
-
-.sidebar-links a:hover{
-  text-decoration: underline;
-}
-
-/* Optional separators like “·” */
-.sidebar-links a:not(:last-child)::after{
-  content: " ·";
-  color: #9ca3af;
-  margin-left: 6px;
-}
-
 
 
