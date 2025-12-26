@@ -4,7 +4,6 @@ url: "https://yl-eco.github.io"
 baseurl: "/yifeiluo.github.io"
 theme: jekyll-theme-minimal
 
-# Theme options
 logo: /assets/img/profile.jpg
 show_downloads: false
 
@@ -12,10 +11,13 @@ author:
   name: "Yifei Luo"
   email: "luoyifei426@gmail.com"
   ssrn: "https://ssrn.com/author=6801941"
+  github: "https://github.com/yifeiluo"
+  scholar: "https://scholar.google.com/"
 
 includes_dir: _includes
-
 # Keep these only if you really want them
 include:
   - BingSiteAuth.xml
   - googled30f3c66337a4699.html
+
+
