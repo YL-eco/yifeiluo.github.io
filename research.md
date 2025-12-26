@@ -12,7 +12,7 @@ permalink: /research
 
 <div class="paper">
   <div class="paper-thumb">
-    <img src="{{ '/assets/paper/persistent_shadows.png' | relative_url }}" alt="Persistent Shadows thumbnail">
+    <img src="{{ '/assets/papers/persistent_shadows.png' | relative_url }}" alt="Persistent Shadows thumbnail">
   </div>
   <div>
     <h3 class="paper-title">Persistent Shadows of the 1932–34 Ukrainian Famine: Trade Disruption, Inequality, and Identity Formation</h3>
@@ -32,7 +32,7 @@ permalink: /research
 
 <div class="paper">
   <div class="paper-thumb">
-    <img src="{{ '/assets/paper/elite_ideology.png' | relative_url }}" alt="Elite Ideology thumbnail">
+    <img src="{{ '/assets/papers/elite_ideology.png' | relative_url }}" alt="Elite Ideology thumbnail">
   </div>
   <div>
     <h3 class="paper-title">Elite Ideology and the Dynamics of Cultural Dominance</h3>
@@ -51,7 +51,7 @@ permalink: /research
 
 <div class="paper">
   <div class="paper-thumb">
-    <img src="{{ '/assets/paper/syria_agriculture.png' | relative_url }}" alt="Syria agriculture thumbnail">
+    <img src="{{ '/assets/papers/syria_agriculture.png' | relative_url }}" alt="Syria agriculture thumbnail">
   </div>
   <div>
     <h3 class="paper-title">Effects of Armed Conflict on Agricultural Productivity—Evidence from Syrian Civil War</h3>
