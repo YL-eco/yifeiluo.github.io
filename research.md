@@ -6,16 +6,21 @@ permalink: /research
 
 {% include nav.html %}
 
+# Research
+
+## Finished / Working Papers
+
 <div class="paper">
   <div class="paper-thumb">
-    <img src="/assets/papers/persistent_shadows.png" alt="Persistent Shadows thumbnail">
+    <img src="{{ '/assets/paper/persistent_shadows.png' | relative_url }}" alt="Persistent Shadows thumbnail">
   </div>
   <div>
     <h3 class="paper-title">Persistent Shadows of the 1932–34 Ukrainian Famine: Trade Disruption, Inequality, and Identity Formation</h3>
     <p class="paper-links">
-      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5387015" target="_blank">SSRN</a> ·
-      Code &amp; Replication: coming soon
+      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5387015" target="_blank">SSRN</a>
+      · Code & Replication: coming soon
     </p>
+
     <details>
       <summary><em>Abstract</em></summary>
       <p>
@@ -27,13 +32,14 @@ permalink: /research
 
 <div class="paper">
   <div class="paper-thumb">
-    <img src="/assets/papers/elite_ideology.png" alt="Elite Ideology thumbnail">
+    <img src="{{ '/assets/paper/elite_ideology.png' | relative_url }}" alt="Elite Ideology thumbnail">
   </div>
   <div>
     <h3 class="paper-title">Elite Ideology and the Dynamics of Cultural Dominance</h3>
     <p class="paper-links">
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5278149" target="_blank">SSRN</a>
     </p>
+
     <details>
       <summary><em>Abstract</em></summary>
       <p>
@@ -45,13 +51,14 @@ permalink: /research
 
 <div class="paper">
   <div class="paper-thumb">
-    <img src="/assets/papers/syria_conflict_ag.png" alt="Syria agriculture thumbnail">
+    <img src="{{ '/assets/paper/syria_agriculture.png' | relative_url }}" alt="Syria agriculture thumbnail">
   </div>
   <div>
     <h3 class="paper-title">Effects of Armed Conflict on Agricultural Productivity—Evidence from Syrian Civil War</h3>
     <p class="paper-links">
-      <a href="/assets/papers/Syria_agr_shock_compressed.pdf" target="_blank">PDF</a>
+      <a href="{{ '/assets/paper/Syria_agr_shock_compressed.pdf' | relative_url }}" target="_blank">PDF</a>
     </p>
+
     <details>
       <summary><em>Abstract</em></summary>
       <p>
@@ -61,15 +68,16 @@ permalink: /research
   </div>
 </div>
 
-<h2>Ongoing work</h2>
+---
 
-<ul>
-  <li><strong>Cognitive richness, learning models and evolutionarily stable Berk–Nash equilibrium</strong></li>
-  <li><strong>Behavioral selection of immigrants</strong></li>
-  <li><strong>Clustering directed graphs</strong></li>
-  <li><strong>The wandering continental philosophy and thriving analytic philosophy</strong></li>
-</ul>
+## Research in Progress
 
-<footer class="site-footer">
-  © {{ site.time | date: "%Y" }} {{ site.author.name }}
-</footer>
+### Cognitive richness, learning models, and evolutionarily stable Berk–Nash equilibrium
+**Summary:** Real world decision making often times entail bounded rationality due to feasibility restriction of mental model. I adapt classical Berk–Nash equilibrium in decision making and augment it with cognitive richness (volume of mental model) and learning of alternative models. The setting allows me to characterize evolutionarily stable distribution of the product measure of reference frame and cognitive richness under different objective environment. Being mentally rich bear incremental cost over the task volume thereby negatively affect the fitness. Finally, I apply the equilibrium definition over various types of applications.
+
+### Behavioral selection of immigrants
+**Summary:** I developed theory explaining the set of behavioral characteristics that determines one’s migration decision from the sending country to the destination country in additional to wage and migration costs. I adapted a method that employs survey data to mark a ranking of individuals within the country and that specific dimension. I use WVS, ESS, Afrobarometer, and EVS to empirically verify the migration decision and quantify how much does the behavioral costs/benefits distorts one’s decision relative to pure monetary returns.
+
+### Clustering directed graphs
+
+### The wandering continental philosophy and thriving analytic philosophy
