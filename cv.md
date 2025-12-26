@@ -5,6 +5,7 @@ permalink: /cv
 ---
 
 {% include nav.html %}
+{% include sidebar-links.html %}
 
 # Curriculum Vitae
 
