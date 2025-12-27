@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yl-eco.github.io/yifeiluo.github.io/sitemap.xml
